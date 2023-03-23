@@ -25,18 +25,18 @@ Start the development server on http://localhost:3000
 npm run dev
 ```
 
-## Production
+## Deploying to edgio
 
-Build the application for production:
+```bash
+npm i -g @edgio/cli
+```
 
 ```bash
 npm run build
 ```
 
-Locally preview production build:
-
 ```bash
-npm run preview
+cd .output && npm run deploy
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
